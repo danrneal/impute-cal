@@ -1,0 +1,2 @@
+statsmodels==0.10.1
+xlrd==1.2.0
