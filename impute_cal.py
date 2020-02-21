@@ -53,5 +53,5 @@ def impute_calories(cals, weight_changes, current_weight, prev_weight):
 
 
 if __name__ == '__main__':
-    tdee_30 = xlrd.open_workbook('../TDEE 3.0.xlsx').sheet_by_index(0)
+    tdee_30 = xlrd.open_workbook('TDEE 3.0.xlsx').sheet_by_index(0)
     get_weights_and_cals(tdee_30)
