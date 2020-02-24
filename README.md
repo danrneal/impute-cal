@@ -1,6 +1,11 @@
 # Impute Cal for TDEE
 
-[DESCRIPTION PLACEHOLDER]
+A script to parse a TDEE spreadsheet and impute the calories for a missed day
+of calorie tracking. Total Daily Energy Expenditure (TDEE) is the measure of
+the amount of calories burned in a day. The included spreadsheet (created by
+reddit user /u/3-suns) calculates a persons TDEE from daily weigh-ins and
+through daily calorie tracking. If a day of calorie tracking is missed, this
+script can provide a best guess given past data contained in the spreadsheet.
 
 ## Set-up
 
