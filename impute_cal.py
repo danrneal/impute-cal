@@ -24,7 +24,7 @@ def get_weights_and_cals(workbook):
 
 def get_current_weight(weights, cals, start_weight):
     if len(weights) == len(cals):
-        current_weight = int(input("Current Weight: "))
+        current_weight = float(input("Current Weight: "))
     elif len(weights) > len(cals):
         current_weight = weights[len(cals)]
         print("Current Weight: " + str(current_weight))
